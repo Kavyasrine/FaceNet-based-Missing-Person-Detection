@@ -114,3 +114,28 @@ Notes
 Use clear face images for best accuracy.
 Stable lighting improves detection.
 Keep classifier.pkl and FaceNet model path correct.
+
+
+## Important Notes
+
+1. **Model File**  
+   - The trained model is **not included** in this repository due to size constraints (>25MB).  
+   - You can train your own model using the instructions below or download the model separately and place it in the `model/` folder.
+
+2. **Upload Min Folder**  
+   - Contains a folder `pre_img/` where preprocessed images will be stored.  
+   - Before training, ensure `pre_img/` exists, as it will be used for saving processed images.
+
+3. **Training Images Folder**  
+   - Create a folder (e.g., `train_images/`) to store your dataset images for training.  
+   - Organize images by person name for proper labeling.
+
+## Instructions to Run
+
+1. Place your training images in the `train_images/` folder.  
+2. Ensure the `pre_img/` folder exists inside `upload_min/`.  
+3. Preprocess your images using the preprocessing scripts (if any).  
+4. Train the model using the provided scripts.  
+5. Once trained, place the model file in the `model/` folder (create if it doesn't exist).  
+
+
