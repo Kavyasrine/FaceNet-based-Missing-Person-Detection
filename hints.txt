@@ -1,0 +1,9 @@
+1.python data_preprocess.py
+
+2.python train_main.py
+
+3. python identify_face_image.py
+
+4. python identify_face_video.py
+
+

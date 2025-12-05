@@ -1,0 +1,11 @@
+face recognition
+-------------------
+pip install scipy==1.2.1
+pip install sklearn==0.0
+pip install scikit-learn==0.20.3
+pip install opencv-python==3.1.0.5
+pip install keras==2.2.4
+pip install tensorflow==1.14.0
+pip install pillow==8.0.1
+pip install scikit-image==0.17.2
+pip install numpy==1.16.2
